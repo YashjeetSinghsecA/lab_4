@@ -78,10 +78,26 @@ section {
     border-radius: 5px;
     font-style: italic;
 }
-
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
 footer {
+    background-clip: url("20325563-uhd_3840_2160_60fps.mp4");
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 10px 0;
 }
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
